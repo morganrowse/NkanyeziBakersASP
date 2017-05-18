@@ -10986,10 +10986,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Morgan\\documents\\visual studio 2017\\Projects\\Bakery\\Bakery\\Bakery.csproj",
+      "projectUniqueName": "C:\\Users\\Morgan\\Source\\Repos\\NkanyeziBakersASP\\Bakery\\Bakery.csproj",
       "projectName": "Bakery",
-      "projectPath": "C:\\Users\\Morgan\\documents\\visual studio 2017\\Projects\\Bakery\\Bakery\\Bakery.csproj",
-      "outputPath": "C:\\Users\\Morgan\\documents\\visual studio 2017\\Projects\\Bakery\\Bakery\\obj\\",
+      "projectPath": "C:\\Users\\Morgan\\Source\\Repos\\NkanyeziBakersASP\\Bakery\\Bakery.csproj",
+      "outputPath": "C:\\Users\\Morgan\\Source\\Repos\\NkanyeziBakersASP\\Bakery\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

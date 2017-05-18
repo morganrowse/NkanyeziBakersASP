@@ -15,11 +15,8 @@
   <ItemGroup>
     <Content Include="wwwroot\images\categories\cakes.jpg" />
     <Content Include="wwwroot\images\categories\cupcakes.jpg" />
-    <Content Include="wwwroot\images\ccake.jpg" />
-    <Content Include="wwwroot\images\cupcakes.jpg" />
     <Content Include="wwwroot\images\products\ccake.jpg" />
     <Content Include="wwwroot\images\products\vcake.jpg" />
-    <Content Include="wwwroot\images\vcake.jpg" />
     <Content Include="wwwroot\images\whirlpool.png" />
     <Content Include="wwwroot\vcake.jpg" />
   </ItemGroup>
