@@ -1,0 +1,10 @@
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\bin\Debug\netcoreapp1.1\Bakery.deps.json
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\bin\Debug\netcoreapp1.1\Bakery.runtimeconfig.json
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\bin\Debug\netcoreapp1.1\Bakery.runtimeconfig.dev.json
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\bin\Debug\netcoreapp1.1\Bakery.dll
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\bin\Debug\netcoreapp1.1\Bakery.pdb
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\obj\Debug\netcoreapp1.1\Bakery.csprojResolveAssemblyReference.cache
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\obj\Debug\netcoreapp1.1\Bakery.AssemblyInfo.cs
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\obj\Debug\netcoreapp1.1\Bakery.dll
+c:\users\morgan\documents\visual studio 2017\Projects\Bakery\Bakery\obj\Debug\netcoreapp1.1\Bakery.pdb
+C:\Users\Morgan\Documents\Visual Studio 2017\Projects\Bakery\Bakery\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

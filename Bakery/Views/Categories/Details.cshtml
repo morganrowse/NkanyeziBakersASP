@@ -1,0 +1,39 @@
+@model Bakery.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="jumbotron">
+    <h1>@Model.Description</h1>
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model.Products)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a asp-controller="Products" asp-action="Details" asp-route-id="@item.ID">
+                    <img src="~/images/products/@item.Photo">
+                </a>
+                <div class="caption">
+                    <div>
+                        <a asp-controller="Products" asp-action="Details" asp-route-id="@item.ID">
+                            <h3>@item.Description</h3>
+                        </a>
+                    </div>
+                    <div class="pull-right">
+                        <a asp-controller="OrderItems" asp-action="AddToCart" asp-route-id="@item.ID" class="btn btn-sm btn-success pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</a>
+                    </div>
+                    <p><strong> @String.Format("{0:C}", item.Price)</strong> </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div>
+    <a asp-controller="HOme" asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Bakery.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@if (SignInManager.IsSignedIn(User))
+
+{
+    @model IEnumerable<Bakery.Models.Category>
+    <div class="jumbotron">
+        <h1>Welcome!</h1>
+        <p>Find available products through the categories below</p>
+    </div>
+
+
+    <div class="row">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a asp-controller="Categories" asp-action="Details" asp-route-id="@item.ID">
+                        <img src="~/images/categories/@item.Photo">
+                    </a>
+                    <div class="caption">
+                        <div>
+                            <a asp-controller="Categories" asp-action="Details" asp-route-id="@item.ID">
+                                <h3>@item.Description</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p> Please sign in first </p>
+}
