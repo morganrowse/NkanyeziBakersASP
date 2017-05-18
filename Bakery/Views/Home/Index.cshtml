@@ -5,13 +5,10 @@
 @inject UserManager<ApplicationUser> UserManager
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-
-
 @if (SignInManager.IsSignedIn(User))
-
 {
     @model IEnumerable<Bakery.Models.Category>
     <div class="jumbotron">
