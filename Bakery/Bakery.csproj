@@ -13,12 +13,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\favicon.ico" />
     <Content Include="wwwroot\images\categories\cakes.jpg" />
     <Content Include="wwwroot\images\categories\cupcakes.jpg" />
     <Content Include="wwwroot\images\products\ccake.jpg" />
     <Content Include="wwwroot\images\products\vcake.jpg" />
     <Content Include="wwwroot\images\whirlpool.png" />
-    <Content Include="wwwroot\vcake.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
